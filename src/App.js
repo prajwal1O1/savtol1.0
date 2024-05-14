@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import NB from './components/NB'
+import { BrowserRouter,Route,Routes } from 'react-router-dom';
+import Home from './components/Home'
+// import SolarCalculator from './components/SolarCalculator';
+// import Aboutus from './components/Aboutus';
+// import Panels from './components/Panels';
+// import BatteryStorage from './components/BatteryStorage';
+// import Inverters from './components/Inverters';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+   <NB/>
+   
+   
+     
+    
+     
+    <Routes>
+     
+     <Route path="/" element={<Home/>}> </Route>
+     {/* <Route path="/Calculator" element={<SolarCalculator/>}> </Route>
+    <Route path="/Aboutus" element={<Aboutus/>}> </Route>
+    <Route path="/Panels" element={<Panels/>}> </Route>
+    <Route path="/BatteryStorage" element={<BatteryStorage/>}> </Route>
+    <Route path="/Inveters" element={<Inverters/>}> </Route> */}
+
+
+
+
+    </Routes>
+    
+    </BrowserRouter>
   );
 }
 

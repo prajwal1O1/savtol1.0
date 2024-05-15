@@ -50,7 +50,7 @@ Team Philosophy and Values:<br></br>
 					<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 					<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
 				</svg> */}
-				<p className="px-6 py-3	 text-lg  text-gray-900 mt-3"><div className='font-bold'>On call <br></br></div>
+				<p className="px-6 py-3	 text-lg 	 text-gray-900 mt-3"><div className='font-bold'>On call <br></br></div>
 				Team Members:<br></br>
 Biographies and Profiles:<br></br>
 Professional Photos:<br></br>

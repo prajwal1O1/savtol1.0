@@ -106,6 +106,7 @@ export default function NB() {
                 class='hover:text-[#007bff] text-white text-[15px] font-bold block'>UPCOMING EVENTS</a></li>
             <li class='border-b py-2 '><a href='/Services'
                 class='hover:text-[#007bff] text-white text-[15px] font-bold block'>FEATURED ARTICLES</a></li>
+               
             {/* <li class='border-b py-2 '><a href='javascript:void(0)'
                 class='hover:text-[#007bff] text-gray-600 text-[15px] font-bold block'>Sign up</a></li>
             <li class='border-b py-2 '><a href='javascript:void(0)'
@@ -126,6 +127,12 @@ export default function NB() {
                             <li className="text-gray-900 hover:text-blue-600 font-bold">
                             <Link  to="">ABOUT US</Link>
                             </li>
+                            <li>
+                            <a href="https://www.youtube.com/" class="text-red-600 hover:text-gray-500">
+                    <span class="sr-only">Youtube</span>
+                    < FaYoutube  size={23} />
+                    </a>
+                    </li>
                             {/* <li className="text-gray-100 hover:text-blue-600 font-bold">
                             <Link to="/contact">Rooftop</Link>
                             </li> */}

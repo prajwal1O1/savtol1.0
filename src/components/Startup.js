@@ -4,7 +4,7 @@ import g from  "./doctorimg.jpg"
 export default function Startup() {
   return (
    
-    <section className="hero relative" style={{backgroundImage:`url(${g})`}}>
+    <section className="hero " style={{backgroundImage:`url(${g})`}}>
     <div className="content">
     <h1 className='text-cyan-300'>Book An appointments With Doctor Now </h1>
     <p>

@@ -12,24 +12,24 @@ export default function Hero1() {
 
     <div className='lg:columns-4 md:columns-2 lg:mt-14 lg:mb-20 lg:ml-20 columns-1 w-full  '>
 
-    <div className=' ml-9 sm:ml-48 sm:mt-10 '>
+    <div className=' ml-9  '>
           <img  src={require('./79ada274-18c7-4d45-9c42-66cd6095931a.jpeg')} alt="" class="md:size-40 size-72 rounded-full  " />
           <h1 className=' lg:mt-10 lg:ml-14  '>Name</h1>
           <h2 className=' '>Ayurveda Practitioner</h2>
     </div>
     <div className='sm:mt-10   '>
           <img  src={require('./79ada274-18c7-4d45-9c42-66cd6095931a.jpeg')} alt="" class="md:size-40 size-72 rounded-full " />
-          <h1 className='mt-10 '>Name</h1>
+          <h1 className='mt-10 lg:ml-14 '>Name</h1>
           <h2 className=''>Ayurveda Practitioner</h2>
     </div>
     <div className='sm:mt-10 '>
           <img  src={require('./79ada274-18c7-4d45-9c42-66cd6095931a.jpeg')} alt="" class="md:size-40 size-72 rounded-full " />
-          <h1 className=''>Name</h1>
+          <h1 className='mt-10 lg:ml-14 '>Name</h1>
           <h2 className=''>Ayurveda Practitioner</h2>
     </div>
     <div className='sm:mt-10 '>
           <img  src={require('./79ada274-18c7-4d45-9c42-66cd6095931a.jpeg')} alt="" class="md:size-40 size-72 rounded-full " />
-          <h1 className=''>Name</h1>
+          <h1 className='mt-10 lg:ml-14 '>Name</h1>
           <h2 className=' '>Ayurveda Practitioner</h2>
     </div>
 

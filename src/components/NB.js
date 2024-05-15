@@ -10,7 +10,7 @@ export default function NB() {
     
     return (
         <nav className="w-full sticky top-0 left-0   ">
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 bg-neutral-200 lg:h-14">
+            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8  backdrop-blur-xl bg-white/30 lg:h-14">
                 <div>
                        
                     <div className="flex items-center justify-between py-3 md:py-5  md:block ">
@@ -98,13 +98,13 @@ export default function NB() {
           </a>
           <ul
             class='absolute hidden group-hover:block shadow-lg bg-black px-6 pb-4 pt-6 space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50'>
-            <li class='border-b py-2 '><a href='/Panels'
+            <li class='border-b py-2 '><a href='/Services'
                 class='hover:text-[#007bff] text-white text-[15px] font-bold block'>RESEARCH FINDINGS</a></li>
-            <li class='border-b py-2 '><a href='/BatteryStorage'
+            <li class='border-b py-2 '><a href='/Services'
                 class='hover:text-[#007bff] text-white text-[15px] font-bold block'>SUCCESS STORIES</a></li>
-            <li class='border-b py-2 '><a href='/Inveters'
+            <li class='border-b py-2 '><a href='/Services'
                 class='hover:text-[#007bff] text-white text-[15px] font-bold block'>UPCOMING EVENTS</a></li>
-            <li class='border-b py-2 '><a href='/Panels'
+            <li class='border-b py-2 '><a href='/Services'
                 class='hover:text-[#007bff] text-white text-[15px] font-bold block'>FEATURED ARTICLES</a></li>
             {/* <li class='border-b py-2 '><a href='javascript:void(0)'
                 class='hover:text-[#007bff] text-gray-600 text-[15px] font-bold block'>Sign up</a></li>

@@ -15,7 +15,7 @@ export default function Teams() {
 					<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 					<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
 				</svg> */}
-				<p className="px-6 py-1 text-lg italic text-gray-900 mt-3 mb-2 "><div className='font-bold'>in house <br></br></div> 
+				<p className="px-6 py-1 text-lg  text-gray-900 mt-3 mb-2 "><div className='font-bold'> in house <br></br></div> 
 				Team Members:<br></br>
 Biographies and Profiles:<br></br>
 Professional Photos:<br></br>
@@ -26,6 +26,7 @@ Testimonials and Reviews:<br></br>
 Team Philosophy and Values:<br></br>
 
 </p>
+
 
 				{/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute bottom-0 right-0 w-8 h-8 text-white">
 					<path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
@@ -49,7 +50,7 @@ Team Philosophy and Values:<br></br>
 					<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 					<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
 				</svg> */}
-				<p className="px-6 py-3	 text-lg italic text-gray-900 mt-3"><div className='font-bold'>On call <br></br></div>
+				<p className="px-6 py-3	 text-lg  text-gray-900 mt-3"><div className='font-bold'>On call <br></br></div>
 				Team Members:<br></br>
 Biographies and Profiles:<br></br>
 Professional Photos:<br></br>

@@ -17,7 +17,7 @@ export default function Vision() {
 					<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 					<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
 				</svg> */}
-				<p className="px-6 py-1 text-lg italic text-gray-900 mt-3"> SVATOL Ayurveda Healthcare and Research Pvt. Ltd.
+				<p className="px-6 py-1 text-lg  text-gray-900 mt-3"> SVATOL Ayurveda Healthcare and Research Pvt. Ltd.
 is captivated by the profound wisdom of the
 Ayurvedic System of Medicine, fueling our
 impassioned quest to revolutionize the healthcare
@@ -38,7 +38,7 @@ not only efficient, effective, and affordable...
 			<p className='text-gray-200'>Vishal Bapat</p> */}
 		</div>
 <div  className='mt-10'>
-<img className='size-96' src={require('./Screenshot (32).png')}/>
+<img className='size-96 rounded-lg' src={require('./79ada274-18c7-4d45-9c42-66cd6095931a.jpeg')}/>
 
 </div>
 
@@ -47,7 +47,7 @@ not only efficient, effective, and affordable...
         
 
         <div className='mt-10'>
-        <img className='size-96' src={require('./Screenshot (32).png')}/>
+        <img className='size-96 rounded-lg' src={require('./710fda82-eaf4-4afb-8752-173f8cee08e0.jpeg')}/>
 
         </div>
 
@@ -57,7 +57,7 @@ not only efficient, effective, and affordable...
 					<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 					<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
 				</svg> */}
-				<p className="px-6 py-3	 text-lg italic text-gray-900 mt-3">SVATOL Ayurveda Healthcare and Research
+				<p className="px-6 py-3	 text-lg  text-gray-900 mt-3">SVATOL Ayurveda Healthcare and Research
 Pvt. Ltd. is captivated by the profound wisdom
 of the Ayurvedic System of Medicine, fueling
 our impassioned quest to revolutionize the

@@ -87,19 +87,19 @@ and Interviews<br></br>
 				</svg> */}
 				<p className="px-6 py-1 text-lg italic text-gray-900 mt-3 mb" > <div className='font-bold'>UPCOMING EVENTS
 </div>
-Event Title:<br></br>
-Date and Time:<br></br>
-Location:<br></br>
-Description:<br></br>
-Registration<br></br>
-Information:<br></br>
-Agenda and Schedule:<br></br>
+•Event Title:<br></br>
+•Date and Time:<br></br>
+•Location:<br></br>
+•Description:<br></br>
+•Registration<br></br>
+•Information:<br></br>
+•Agenda and Schedule:<br></br>
 Featured Topics or
-Themes:<br></br>
-Target Audience:<br></br>
+•Themes:<br></br>
+•Target Audience:<br></br>
 Sponsorship and
-Partnerships:<br></br>
-Social Sharing and
+•Partnerships:<br></br>
+•Social Sharing and
 Engagement:<br></br>
 
 
@@ -125,16 +125,21 @@ Engagement:<br></br>
 					<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 					<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
 				</svg> */}
-				<p className="px-6 py-1 text-lg italic text-gray-900 mt-3 mb" > <div className='font-bold'>SUCCESS STOIRES</div>
-				Patient Profiles<br></br>
-				•Health Challenges<br></br>
-				•Treatment Journey<br></br>
-				•Progress and Results<br></br>
-				•Personal Testimonials<br></br>
-				•Practitioner Insights<br></br>
-				•Ethical Considerations<br></br>
-				•Diversity and
-				Representation
+				<p className="px-6 py-1 text-lg italic text-gray-900 mt-3 mb" > <div className='font-bold'>FEATURED ARTICLES
+</div>
+•Title:<br></br>
+•Authorship:<br></br>
+•vPublication Date:<br></br>
+•Introduction or Teaser:<br></br>
+•Content Body:<br></br>
+•Visual Elements:<br></br>
+•Credible Sources and
+•References:<br></br>
+•Social Sharing and
+•Bookmarking:<br></br>
+•Related Articles or
+Resources:<br></br>
+				
 
 
 </p>

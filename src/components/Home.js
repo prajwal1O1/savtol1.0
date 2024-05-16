@@ -7,17 +7,24 @@ import Paragraph from './Paragraph'
 import Aboutus from './Aboutus'
 import Startup from './Startup'
 import Hero1 from './Hero1'
+import Vision1 from './Vision1'
+import Testhero from './Herosection'
 export default function Home() {
+
   return (
     <div>
-      <Vision/>
+
+      <Testhero/>
+      {/* <Vision1/> */}
+      {/* <Vision/> */}
+      
       <Hero1/>
       {/* <Teams/> */}
       <Contactus/>
       {/* <Services/> */}
       <Paragraph/>
       <Aboutus/>
-      <Startup/>
+      {/* <Startup/> */}
       
     </div>
   )

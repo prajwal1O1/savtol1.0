@@ -1,6 +1,10 @@
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+
+
 // bg-rgb(141,218,141)
 
 export default function NB() {
@@ -9,14 +13,15 @@ export default function NB() {
 
     
     return (
-        <nav className="w-full sticky top-0 left-0   ">
+        <nav className="w-full sticky top-0 left-0   z-40">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8  backdrop-blur-xl bg-white/30 lg:h-14">
                 <div>
                        
                     <div className="flex items-center justify-between py-3 md:py-5  md:block ">
-                        <img  className="opacity-100 mt-2 h-32 object-contain" ></img>
+                        
                            <a href="javascript:void(0)">
-                             {/* <h2 className="text-2xl text-white font-bold">Logo</h2>  */}
+                        <img  className="opacity-100 mt-16 pt-0  h-24 w-30 object-scale-down h" src={require('./Screenshot__35_-removebg-preview.png')}></img>
+                             
                         </a>  
 
                         
@@ -81,7 +86,7 @@ export default function NB() {
         </div> */}
       </div>
       <li className="text-gray-900 hover:text-blue-600 font-bold">
-                            <Link  to="/">Home</Link>
+                            <Link  to="/">HOME</Link>
                             </li>
                             <li className="text-gray-900 hover:text-orange font-bold">
                             <Link to=""></Link>
@@ -118,20 +123,37 @@ export default function NB() {
                             </li>
                            
                             <li className="text-gray-900 hover:text-blue-600 font-bold">
-                            <Link  to="">AYURVEDA</Link>
+                            <Link  to=""> Why AYURVEDA</Link>
                             </li>
 
                             <li className="text-gray-900 hover:text-blue-600 font-bold">
                             <Link  to=""> RESEARCH</Link>
                             </li>
                             <li className="text-gray-900 hover:text-blue-600 font-bold">
-                            <Link  to="">ABOUT US</Link>
+                            <Link  to="/Aboutus">ABOUT US</Link>
                             </li>
                             <li>
                             <a href="https://www.youtube.com/" class="text-red-600 hover:text-gray-500">
                     <span class="sr-only">Youtube</span>
                     < FaYoutube  size={23} />
                     </a>
+                   
+                    </li>
+
+                    <li>
+                            <a href="https://www.youtube.com/" class="text-red-600 hover:text-gray-500">
+                    <span class="sr-only">Youtube</span>
+                    < FaInstagram  size={23} />
+                    </a>
+                   
+                    </li>
+
+                    <li>
+                            <a href="https://www.youtube.com/" class="text-blue-600 hover:text-gray-500">
+                    <span class="sr-only">Youtube</span>
+                    < FaFacebook  size={23} />
+                    </a>
+                   
                     </li>
                             {/* <li className="text-gray-100 hover:text-blue-600 font-bold">
                             <Link to="/contact">Rooftop</Link>

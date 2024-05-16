@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom';
 export default function Paragraph() {
   return (
     <div className=''>
-        <h1 className='text-center font-extrabold mt-10 '>AYURVEDA AS RESEARCH</h1>
+       
+        <h1 className='text-4xl  text-center mt-10 font-bold '> AYURVEDA Roots and Research</h1>
+
         <div>
         <h1 className='font-bold ml-14 mt-20'>HISTORICAL CONTEXT:</h1>
         <h2 className='ml-14'>EXPLORE THE ORIGINS OF AYURVEDA IN ANCIENT INDIA, DATING BACK OVER 5,000 YEARS, AND ITS DEVELOPMENT AS A COMPREHENSIVE SYSTEM OF

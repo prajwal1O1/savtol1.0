@@ -3,8 +3,8 @@ import { Carousel } from 'flowbite-react';
 
 function Testhero() {
   return (
-    <div className=" ">
-      <Carousel className='h-96 mt-14'>
+    <div className="bg-[#FFF6E7] ">
+      <Carousel className='h-96  bg-[#FFF6E7]'>
         {/* <img src={require('./1.png')}> </img> */}
         <img className='object-scale-down h-70' src={require('./d1.png')}></img>
         <img className='object-scale-down h-75' src={require('./M1.png')}></img>
